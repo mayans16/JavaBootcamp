@@ -9,8 +9,8 @@ public class Main {
             far[i] = i;
         }
 
-        System.out.println("The number of even numbers in boo is:" + countEvenNum(boo, 5));
-        System.out.println("The number of even numbers in far is:" + countEvenNum(far, 100));
+        System.out.println("The number of even numbers in boo is: " + countEvenNum(boo, 5));
+        System.out.println("The number of even numbers in far is: " + countEvenNum(far, 100));
     }
 
     private static int countEvenNum(int[] arr, int size){
