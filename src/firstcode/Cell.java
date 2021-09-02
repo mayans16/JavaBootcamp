@@ -1,4 +1,5 @@
 package firstcode;
+import java.util.ArrayList;
 
 public class Cell {
     private int strength;
