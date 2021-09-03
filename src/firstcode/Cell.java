@@ -1,11 +1,17 @@
 package firstcode;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class Cell {
     private int strength;
     private int x;
     private int y;
     private int id;
+
+    public HashMap<String, Integer> concentrations = new HashMap<String, Integer>();
+    public HashSet<String> signalMolecules = new HashSet<String>();
+    private ArrayList<Cell> neighbors = new ArrayList<Cell>();
 
     public Cell(){
         this.strength = 0;
@@ -70,6 +76,12 @@ public class Cell {
         }
         else{
             this.id = 0;
+        }
+    }
+
+    private void life(){
+        if (neighbors.size() > 6){
+
         }
     }
 
